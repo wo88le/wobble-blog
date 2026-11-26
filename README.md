@@ -4,10 +4,13 @@ Static site built with [Parcel v3](https://v3.parceljs.org/) (alpha), deployed t
 
 ## Develop
 
+Node and pnpm versions are pinned in `mise.toml`.
+
 ```sh
-npm install
-npm start        # dev server on http://localhost:1234
-npm run build    # production build into dist/
+mise install     # node + pnpm
+pnpm install
+pnpm start       # dev server on http://localhost:1234
+pnpm build       # production build into dist/
 ```
 
 Entry point is `src/index.html` (the `source` field in `package.json`).

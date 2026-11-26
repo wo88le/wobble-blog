@@ -1,0 +1,101 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .:
+    devDependencies:
+      parcel:
+        specifier: 3.0.0-alpha.3
+        version: 3.0.0-alpha.3
+
+packages:
+
+  '@parcel/parcel3-darwin-arm64@3.0.0-alpha.3':
+    resolution: {integrity: sha512-RFRnqTNDR7VSK2jw0XnYlNBZngaj8Q9OLLW7Wx7uUTgWDBMO3xcO/4SrVZIO1sBifD17Y+H8R8avjlpGD+S/mg==}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@parcel/parcel3-darwin-x64@3.0.0-alpha.3':
+    resolution: {integrity: sha512-lGLIS8SLmNSCJSMK3j49DeW/8HYP9vIEiesiu2wlf61kyZ9XY93VzeV3a0ZRDmxZ906GH5ul3QZ73osKSRyyew==}
+    cpu: [x64]
+    os: [darwin]
+
+  '@parcel/parcel3-linux-arm64-musl@3.0.0-alpha.3':
+    resolution: {integrity: sha512-cwQQOQPC5Y2sXKCVMs4oazgSkVaqV7/jkGPxEEI6cqqWM0pmgKIGdV7ek3MFIlkYuGh+9lDFU/nwXaSb4uN5uQ==}
+    cpu: [arm64]
+    os: [linux]
+    libc: [musl]
+
+  '@parcel/parcel3-linux-arm64@3.0.0-alpha.3':
+    resolution: {integrity: sha512-fSOvytq/MjmxMGSPIePeEWMwTGxL6ZU4YxWIxLZkdTggb4svDP3cvlANtk52yiQWRKCZ32FPtApAaW2U/Kk0yQ==}
+    cpu: [arm64]
+    os: [linux]
+    libc: [glibc]
+
+  '@parcel/parcel3-linux-x64-musl@3.0.0-alpha.3':
+    resolution: {integrity: sha512-TjI/P26JiO5y07VGCX+HrghFUJNina1Vr/WXVpSmD2tQnEUKGnECosuYBKJMLe515C+XloSPo3+9e/AkM4Mp2w==}
+    cpu: [x64]
+    os: [linux]
+    libc: [musl]
+
+  '@parcel/parcel3-linux-x64@3.0.0-alpha.3':
+    resolution: {integrity: sha512-BiRU/O8GYbRRuLkHhjNjQhu5eOQ3yC4tQpG+WzImONK2sJG0bI1JPOPVie/+W7ons2kXB8lPjh1SRj25+KaKAg==}
+    cpu: [x64]
+    os: [linux]
+    libc: [glibc]
+
+  '@parcel/parcel3-win32-arm64@3.0.0-alpha.3':
+    resolution: {integrity: sha512-oT+pjQZQ10NVyc0GJ1VTgx76VRKLR0qDXh1ess41Ral7q/HvcJF4KiUkqsxLwUCPbFuLku5RtsgS5vFkqbfloA==}
+    cpu: [arm64]
+    os: [win32]
+
+  '@parcel/parcel3-win32-x64@3.0.0-alpha.3':
+    resolution: {integrity: sha512-QhkS4O/0Mo7vyMR6XI/RIp5yJyj3s7TflBWdX+U7BdJ5UuAVR+hpCIUJQq654mL5/kSBieXq//iiU/3HTE3RIg==}
+    cpu: [x64]
+    os: [win32]
+
+  parcel@3.0.0-alpha.3:
+    resolution: {integrity: sha512-XTbBrkke2N3GG0YlRoosSkoho1OBw734bLHt43R2jYYCV5KSoiOu+bP2/hTPed54ULSYADvNI97MxRF8H4QExw==}
+    engines: {node: '>= 18'}
+    hasBin: true
+
+snapshots:
+
+  '@parcel/parcel3-darwin-arm64@3.0.0-alpha.3':
+    optional: true
+
+  '@parcel/parcel3-darwin-x64@3.0.0-alpha.3':
+    optional: true
+
+  '@parcel/parcel3-linux-arm64-musl@3.0.0-alpha.3':
+    optional: true
+
+  '@parcel/parcel3-linux-arm64@3.0.0-alpha.3':
+    optional: true
+
+  '@parcel/parcel3-linux-x64-musl@3.0.0-alpha.3':
+    optional: true
+
+  '@parcel/parcel3-linux-x64@3.0.0-alpha.3':
+    optional: true
+
+  '@parcel/parcel3-win32-arm64@3.0.0-alpha.3':
+    optional: true
+
+  '@parcel/parcel3-win32-x64@3.0.0-alpha.3':
+    optional: true
+
+  parcel@3.0.0-alpha.3:
+    optionalDependencies:
+      '@parcel/parcel3-darwin-arm64': 3.0.0-alpha.3
+      '@parcel/parcel3-darwin-x64': 3.0.0-alpha.3
+      '@parcel/parcel3-linux-arm64': 3.0.0-alpha.3
+      '@parcel/parcel3-linux-arm64-musl': 3.0.0-alpha.3
+      '@parcel/parcel3-linux-x64': 3.0.0-alpha.3
+      '@parcel/parcel3-linux-x64-musl': 3.0.0-alpha.3
+      '@parcel/parcel3-win32-arm64': 3.0.0-alpha.3
+      '@parcel/parcel3-win32-x64': 3.0.0-alpha.3
