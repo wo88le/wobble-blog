@@ -1,0 +1,16 @@
+{
+  "name": "wobble-blog",
+  "private": true,
+  "source": "src/index.html",
+  "scripts": {
+    "start": "parcel serve",
+    "build": "parcel build --public-url ./"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wo88le/wobble-blog.git"
+  },
+  "devDependencies": {
+    "parcel": "3.0.0-alpha.3"
+  }
+}
