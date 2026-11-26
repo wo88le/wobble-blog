@@ -8,3 +8,17 @@ main {
   margin: 4rem auto;
   padding: 0 1rem;
 }
+
+.github {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4em;
+  color: inherit;
+}
+
+.github-icon {
+  width: 1.1em;
+  height: 1.1em;
+  background-color: currentColor;
+  mask: url("https://cdn.jsdelivr.net/npm/simple-icons@16.38.1/icons/github.svg") center / contain no-repeat;
+}
